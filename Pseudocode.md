@@ -11,7 +11,7 @@ If PCR duplicates are not removed for alignment to a reference, they can also fa
 
 # What does a PCR-duplicate look like<br/>
 > UMI <br/>
-> Strand (strand specific?) (FLAG, SAM col 2) <br/>
+> Strand (FLAG, SAM col 2) <br/>
 > Chromosome (RNAME, SAM col 3) <br/>
 > Alignment position (POS, SAM col 4): Be aware of Soft clipping (in the CIGAR string)
 

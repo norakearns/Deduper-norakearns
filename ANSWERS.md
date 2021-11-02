@@ -5,14 +5,14 @@
 cat Real_file_sorted.sam | grep -v "^@" | wc -l
 ```
 
-18186410
+18,186,410
 
 #### Total Reads in the DEDUPED output file
 ```
 cat final_sorted_file_deduped.sam | grep -v "^@" | wc -l 
 ```
 
-13719048
+13,719,048
 
 #### Number of PCR duplicates
 

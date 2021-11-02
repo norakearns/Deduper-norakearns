@@ -23,6 +23,7 @@ cat final_sorted_file_deduped.sam | grep -v "^@" | wc -l
 cat final_sorted_file_deduped.sam | grep -v "^@" | cut -f 3 | uniq -c | head -n 100
 ```
 
+```
 697508 1
 2787018 2
  547615 3
@@ -66,3 +67,4 @@ cat final_sorted_file_deduped.sam | grep -v "^@" | cut -f 3 | uniq -c | head -n 
       3 GL456368.1
       3 MU069434.1
     111 JH584295.1
+    ```
